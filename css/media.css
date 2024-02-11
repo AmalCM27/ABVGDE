@@ -41,3 +41,19 @@
     margin-top: 66px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .ult_in {
+    flex-direction: column; /* Изменяем направление flex на колонку */
+    align-items: center; /* Выравниваем элементы по центру */
+    text-align: center; /* Выравниваем текст по центру */
+  }
+  .ult__img {
+    order: -1; /* Помещаем изображение перед текстом */
+    margin-bottom: 20px; /* Добавляем отступ между изображением и текстом */
+    text-align: center; /* Выравниваем изображение по центру */
+  }
+  .ult_right {
+    margin-left: -467px;
+  }
+}
