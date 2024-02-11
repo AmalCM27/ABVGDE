@@ -24,5 +24,20 @@
 
 
 @media screen and (max-width: 768px) {
+  .cards {
+    margin: 20px; 
+  }
 
+  .product {
+    width: calc(50% - 64px);
+    margin-bottom: -38px
+  }
+  .cartochky_tit{
+    margin-left: 106px;
+  }
+  .card_btn{
+    width: 189px;
+    margin-left: 271px;
+    margin-top: 66px;
+  }
 }
