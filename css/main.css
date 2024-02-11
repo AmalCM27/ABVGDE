@@ -31,6 +31,7 @@ body {
 }
 
 .turtle_in {
+  display: flex;
   background: rgb(245, 238, 230);
 }
 
@@ -39,9 +40,6 @@ body {
   padding: 150px;
 }
 
-.turtle_in {
-  display: flex;
-}
 
 /* svg */
 .fast_icon i {
@@ -395,6 +393,69 @@ body {
   color: #F9F9F7;
 }
 
+@media screen and (max-width: 720px) {
+  .turtle_in {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .turtle__img {
+    order: -1; 
+    margin-bottom: 62px; 
+  }
+
+  .turtle_right {
+    width: 100%; 
+    padding: 0 157px;
+  }
+  .fast_icons{
+    overflow: hidden;
+  }
+  .check_box{
+     margin-top: -606px;
+     margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    margin: 20px; 
+  }
+
+  .product {
+    width: calc(50% - 64px);
+    margin-bottom: -38px
+  }
+  .cartochky_tit{
+    margin-left: 106px;
+  }
+  .card_btn{
+    width: 189px;
+    margin-left: 271px;
+    margin-top: 66px;
+  }
+}
+
+/* Медиазапрос для устройств с максимальной шириной 768px (например, планшетов и мобильных устройств) */
+@media screen and (max-width: 768px) {
+  .ult_in {
+    flex-direction: column; /* Изменяем направление flex на колонку */
+    align-items: center; /* Выравниваем элементы по центру */
+    text-align: center; /* Выравниваем текст по центру */
+  }
+  .ult__img {
+    order: -1; /* Помещаем изображение перед текстом */
+    margin-bottom: 20px; /* Добавляем отступ между изображением и текстом */
+    text-align: center; /* Выравниваем изображение по центру */
+  }
+  .ult_right {
+    margin-left: -467px;
+  }
+}
+
+
+
+
 .ult_in {
   display: flex;
 }
@@ -411,4 +472,9 @@ body {
   margin-top: -506px;
   margin-bottom: 0.16%;
   opacity: 0.6;
+}
+
+.ult_right{
+  width: calc(50% - 45px);
+  padding: 150px;
 }
