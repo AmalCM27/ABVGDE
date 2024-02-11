@@ -72,12 +72,12 @@ body {
 
 /* checkbox */
 .check_box {
-  position: absolute;
-  width: 576px;
-  height: 40px;
-  left: 64.6%;
-  right: 0%;
-  top: 696.63px;
+  width: 86px;
+  height: -222px;
+  margin-left: -334px;
+  margin-top: 563.63px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .quicle {
@@ -412,4 +412,3 @@ body {
   margin-bottom: 0.16%;
   opacity: 0.6;
 }
-
